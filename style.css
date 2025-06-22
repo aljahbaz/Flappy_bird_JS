@@ -1,0 +1,26 @@
+body {
+  margin: 0;
+  background: #70c5ce;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+canvas{
+  box-shadow: 0 0 20px black;
+}
+
+.overlay{
+  position: absolute;
+  color: white;
+  font-size: 32px;
+  font-family: Arial, Helvetica, sans-serif;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  background-color: black;
+  padding: 20px 40px;
+  border-radius: 10px;
+  z-index: 2;
+}
